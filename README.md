@@ -9,8 +9,16 @@ This project is for proxy some api that is not available in China.
 
 ## Deployment
 
-TODO: add more deployment methods.
+### Deno
 
 - [Deno](https://dash.deno.com/)
+
+```bash
+deployctl deploy deno/proxy-openai.ts --project=deno-proxy-openai
+deployctl deploy deno/proxy-telegram.ts --project=proxy-telegram
+```
+
+<!-- 
 - [Vercel](https://vercel.com)
 - Self host
+-->

@@ -1,4 +1,4 @@
-const TELEGRAM_API_HOST = "https://api.telegram.org"
+const TELEGRAM_API_HOST = "api.telegram.org"
 
 Deno.serve(async (request) => {
   const url = new URL(request.url)
